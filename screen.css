@@ -1,0 +1,37 @@
+.row{
+    display: table;
+}
+.row {
+  display:flex;
+  text-align:center;
+  margin:1%;
+  padding:2%;
+}
+.column {
+  flex: 50%;
+  height:100px;
+  width:100%;
+  background:powderblue;
+  border: 1px solid black;
+  float:right;
+  border-collapse: collapse;
+  padding:5%;
+}
+.lists {
+  flex: 50%;
+  float:right;
+  font-size:20px;
+  background:powderblue;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding:25%;
+  height:70px;
+}
+table, th, td {
+  flex: 50%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  width:70%;
+  margin:5%;
+  padding:1%;
+}
